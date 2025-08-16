@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prep Plan - Student Portal</title>
+  <style>
+    * {margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif;}
+    body {background:#f5f5f5; color:#333; line-height:1.6;}
+    header {background:#222; color:#fff; padding:15px 20px; text-align:center;}
+    nav a {color:#fff; margin:0 15px; text-decoration:none; font-weight:bold;}
+    nav a:hover {color:#4da6ff;}
+
+    section {padding:40px 20px; max-width:1100px; margin:auto;}
+    h2 {margin-bottom:20px; text-align:center; color:#222;}
+
+    /* Dashboard Cards */
+    .dashboard {display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px;}
+    .card {background:#333; color:#fff; padding:20px; border-radius:12px; text-align:center; transition:0.3s;}
+    .card:hover {transform:translateY(-5px); background:#444;}
+
+    /* Routine Table */
+    table {width:100%; border-collapse:collapse; background:#fff; box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+    th, td {border:1px solid #ddd; padding:12px; text-align:center;}
+    th {background:#4da6ff; color:#fff;}
+    tr:nth-child(even) {background:#f9f9f9;}
+
+    /* Study Materials */
+    .materials {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+    .material-card {background:#fff; padding:20px; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+    .material-card a {display:inline-block; margin-top:10px; padding:8px 12px; background:#4da6ff; color:#fff; border-radius:6px; text-decoration:none;}
+    .material-card a:hover {background:#333;}
+
+    /* Moodle Button */
+    .moodle {text-align:center;}
+    .moodle a {background:#333; color:#fff; padding:12px 20px; border-radius:8px; text-decoration:none; font-weight:bold;}
+    .moodle a:hover {background:#4da6ff;}
+
+    /* Footer */
+    footer {background:#222; color:#fff; text-align:center; padding:15px;}
+    footer a {color:#4da6ff; margin:0 10px; text-decoration:none;}
+    footer a:hover {color:#fff;}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Prep Plan - Student Portal</h1>
+    <nav>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#routine">Routine</a>
+      <a href="#materials">Study Materials</a>
+      <a href="#moodle">Moodle</a>
+    </nav>
+  </header>
+
+  <!-- Dashboard -->
+  <section id="dashboard">
+    <h2>Dashboard</h2>
+    <div class="dashboard">
+      <div class="card">Mathematics</div>
+      <div class="card">Computer Science</div>
+      <div class="card">Data Analytics</div>
+      <div class="card">English</div>
+    </div>
+  </section>
+
+  <!-- Routine -->
+  <section id="routine">
+    <h2>Class Routine</h2>
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>9–10 AM</th>
+        <th>10–11 AM</th>
+        <th>11–12 PM</th>
+        <th>1–2 PM</th>
+        <th>2–3 PM</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Math</td>
+        <td>CS</td>
+        <td>DA</td>
+        <td>English</td>
+        <td>Self Study</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>CS</td>
+        <td>DA</td>
+        <td>Math</td>
+        <td>English</td>
+        <td>Lab</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>DA</td>
+        <td>Math</td>
+        <td>CS</td>
+        <td>English</td>
+        <td>Self Study</td>
+      </tr>
+      <!-- Add more rows if needed -->
+    </table>
+  </section>
+
+  <!-- Study Materials -->
+  <section id="materials">
+    <h2>Study Materials</h2>
+    <div class="materials">
+      <div class="material-card">
+        <h3>Mathematics</h3>
+        <a href="#">Download PDF</a>
+      </div>
+      <div class="material-card">
+        <h3>Computer Science</h3>
+        <a href="#">Download PDF</a>
+      </div>
+      <div class="material-card">
+        <h3>Data Analytics</h3>
+        <a href="#">Download PDF</a>
+      </div>
+      <div class="material-card">
+        <h3>English</h3>
+        <a href="#">Download PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Moodle -->
+  <section id="moodle" class="moodle">
+    <h2>Login to Classes</h2>
+    <a href="https://cet.iitp.ac.in/moodle/login/index.php" target="_blank">Go to Moodle</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Connect with me: 
+      <a href="https://www.linkedin.com/in/akshaymehta7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> | 
+      <a href="https://www.instagram.com/mr..anonymous_?igsh=aHVpazUwc3htdm54" target="_blank">Instagram</a>
+    </p>
+  </footer>
+
+</body>
+</html>
